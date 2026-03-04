@@ -184,8 +184,8 @@ body {
 				style="width:100%; max-width:500px; height:250px; overflow:hidden; margin:20px auto; border-radius:8px;">
 			
         <p>According to the image, do you feel, when around other, as if you are in the crowd or in the middle?</p>
-		<a href="#resultsPage" onclick="fatigueAdd();" class="w3-btn w3-black"> In the crowd.</a>	
-		<a href="#resultsPage" onclick="depressionAdd();"class="w3-btn w3-black"> In the middle.</a>	
+		<a href="#resultsPage" onclick="fatigueAdd(); showResults();" class="w3-btn w3-black"> In the crowd.</a>	
+		<a href="#resultsPage" onclick="depressionAdd(); showResults();"class="w3-btn w3-black"> In the middle.</a>	
     	</div>
 </div>
 
@@ -196,8 +196,8 @@ body {
 
     <div class="w3-container">
         <p id="results"></p>
-        <a href="#resultsPage" onclick="fatigueAdd(); showResults();" class="w3-btn w3-black"> Yes</a>
-		<a href="#resultsPage" onclick="depressionAdd(); showResults();" class="w3-btn w3-black"> No</a>
+        <br>
+		<a href="#start" class="w3-btn w3-black">Restart Quiz</a>
 		
     </div>
 </div>
